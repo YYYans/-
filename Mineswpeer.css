@@ -1,0 +1,149 @@
+body {
+    background-color: aliceblue;
+}
+
+.hide {
+    display: none;
+}
+
+
+.titlebox{
+    /*width: 100%;*/
+
+    height: 45px;
+    line-height: 50px;
+    text-align: center;
+    background: lightblue;
+}
+
+.message1{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.message2{
+
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.ok_button{
+    height: 30px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    transform: translatex(95px);
+    background: lightblue;
+}
+
+
+.modal-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-mask {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+}
+
+.modal-alert {
+    margin: 0 auto;
+    height: 150px;
+    width: 250px;
+    background: white;
+    opacity: 1;
+}
+
+.vertical-center {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.cell {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    font-size: 0;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: cadetblue;
+    border-radius: 5px;
+}
+
+.row-clearfix::after {
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+
+.game-name{
+    font-size: 30px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: lightskyblue;
+    /*margin:0 auto;*/
+    margin-left: 660px;
+    transform: translateY(100%);
+    position: relative;
+}
+
+.mime{
+    width: 325px;
+    height: 325px;
+}
+
+.game-box {
+    padding: 1px;
+    width: 325px;
+    height: 325px;
+    border: 5px solid #cccccc;
+    margin: 0 auto;
+    top: 20%;
+    position: relative;
+    transform: translateY(20%);
+    border-radius: 10px;
+
+}
+
+.opened {
+    font-size: 20px;
+    color: darksalmon;
+    text-align: center;
+}
+
+.showfont{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.show {
+    background: darksalmon;
+    border-radius: 5px;
+}
+
+.win {
+    background: lightcoral;
+}
+
+.bump-img {
+    width: 30px;
+    height: 30px;
+}
